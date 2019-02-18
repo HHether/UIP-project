@@ -1,0 +1,51 @@
+/*
+The common definition of the menus.
+*/
+.menu {
+    position: absolute;
+    top: 145px;
+    right: 50px;
+    background-color: navajowhite;
+    width: 400px;
+    height: 500px;
+    border: ghostwhite groove 5px;
+    padding: 5px;
+}
+
+/*
+Individual menu styles =============================
+*/
+#menutabs {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    width: 400px;
+}
+/*
+The menu tabs are actually list items in a refined horisontal list.
+*/
+ul#mtabs {
+    list-style: none;  /* Removes the bullet */
+}
+
+/*
+The menu tabs
+*/
+#mtabs li {
+    margin: auto;
+    float: left;
+    display: inline;  /* Makes the list horisontal */
+    padding: 4px;
+    border-radius: 10px 10px 0px 0px; /* We use rounded top corners to give the tab feeling */
+    background-color: black;
+    color: white;
+}
+/* End menu styles ==========================
+*/
+#display {
+    text-align: right;
+    font-size: larger;
+    background-color: darkgrey;
+    color: white;
+
+}
