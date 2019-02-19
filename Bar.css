@@ -1,0 +1,84 @@
+#tableau{
+	background-color: #efefef;
+	width: 100%;
+	border: black solid 10px;}
+
+td{
+	border: white solid 20px;
+	background-color: #efefef;
+	width =33%;
+	padding: 20px;
+}
+.tables{
+	width: 25%;
+}
+/*
+Definition of a standard button of the interface.
+*/
+.button {
+    background-color: darkslategrey;
+    border: white solid 2px;
+    height: 30px;
+    width: 80px;
+    color: white;
+    padding: 5px;
+    border-radius: 15px; /* Making the buttons corners more rounded. */
+}
+
+
+#pubname {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    background: #556B2F;
+	font-family: Old English Text MT;
+	font-weight: bold;
+    color: navajowhite;
+    padding: 10px;
+    border: groove 5px ghostwhite;
+}
+
+#t1{
+background-color: #556B2F;
+}
+
+#t2 
+{
+background-color: #2F4F4F;
+}
+
+#t3{
+background-color: 	#DCDCDC;
+}
+
+#t4{
+background-color: 	#4B0082;
+}
+
+#t5{ 
+background-color: #7CFC00;}
+
+#t6{
+background-color: #ADD8E6;
+}
+
+
+
+The menu tabs are actually list items in a refined horisontal list.
+*/
+ul#mtabs {
+    list-style: none;  /* Removes the bullet */
+}
+#mtabs li {
+    display: inline;  /* Makes the list horisontal */
+    
+}
+.menutest{
+background-color:#FFFFFF;
+width: 33%;
+position:top;}
+
+h1#mt{
+	position:top;
+}
+
